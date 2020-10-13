@@ -17,12 +17,43 @@ display: flex;
 .side-header{
   height: 100px;
   padding: 0 20px;
+  background-color: #253141;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-name a{
+  font-size: 16px;
+  color: #fafafa;
+  text-decoration: none;
+}
+
+.create-group{
+  font-size: 10px;
+}
+
+.create-group a{
+  color: deepskyblue;
+  border: 1px solid lightblue;
+  padding: 14px;
+  text-decoration: none;
 }
 
 .groups{
   background-color: #2f3e51;
   height: calc(100vh - 100px);
   padding: 0 20px;
+  overflow: scroll;
+}
+
+.group{
+  padding: 20px 0 40px;
+}
+
+.group-name a{
+  text-decoration: none;
+  color: white;
 }
 
 .chat-header{
@@ -41,3 +72,4 @@ display: flex;
   background-color: #dddddd;
   padding: 20px 40px;
 }
+
